@@ -107,7 +107,19 @@ python app.py
 | Exp3 数据增强 | YOLOv8n | 0.479 | 0.295 | 0.471 | 0.774 | 8 |
 | Exp4 高分辨率 | YOLOv8n | 0.498 | 0.368 | 0.434 | **0.859** | 33 |
 | Exp5 综合配置 | YOLOv8s | 0.492 | 0.355 | 0.431 | 0.847 | 41 |
+### 可视化对比
 
+**指标对比柱状图：**
+
+![指标对比柱状图](results/comparison_bar.png)
+
+**训练曲线（mAP50 / mAP50-95 / Precision / Recall）：**
+
+![训练曲线](results/training_curves.png)
+
+**训练Loss曲线：**
+
+![Loss曲线](results/loss_curves.png)
 ### 结果分析
 
 **1. 模型规模并非越大越好**
