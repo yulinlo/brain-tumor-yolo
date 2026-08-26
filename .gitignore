@@ -1,0 +1,45 @@
+# 数据（体积大，不上传）
+data/train/
+data/valid/
+data/test/
+data/all_images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.mp4
+
+# 权重文件
+weights/
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 结果（可选保留results/下的图表，但排除大文件）
+results/predictions/
